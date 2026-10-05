@@ -1,0 +1,36 @@
+name: Build and deploy Loop
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Pre-render the collection
+        env:
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: python3 build.py --site-url "$SITE_URL"
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

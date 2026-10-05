@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101114">
+  <title>Loop — A little scroll. A lot to discover.</title>
+  <meta name="description" content="Discover a curated collection of Instagram reels on Loop. Explore short videos, save your favorites, and share your next find.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Loop — A little scroll. A lot to discover.">
+  <meta property="og:description" content="A curated collection of Instagram reels. Find your next favorite.">
+  <meta property="og:site_name" content="Loop">
+  <meta name="twitter:card" content="summary">
+  <!-- SEO:START --><!-- SEO:END -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23101114'/%3E%3Cpath d='M25 17v30l24-15z' fill='%23c7f566'/%3E%3C/svg%3E">
+  <style>
+    :root{color-scheme:dark;--bg:#101114;--panel:#191a1f;--line:#303137;--text:#f5f5f7;--muted:#a5a7af;--accent:#c7f566;--on-accent:#172109;--radius:20px;--header:78px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,a,input{-webkit-tap-highlight-color:transparent}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}button,a{touch-action:manipulation}button{border:0}button:disabled{opacity:.4;cursor:default}button:hover:not(:disabled){filter:brightness(1.15)}a:hover{color:var(--accent)}:focus-visible{outline:3px solid var(--accent);outline-offset:5px}svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}button svg{pointer-events:none}h1,h2,p{margin:0}button,a{transition:background .18s,color .18s} [hidden]{display:none!important}
+    .skip{position:fixed;top:-80px;left:16px;z-index:30;padding:12px;background:var(--accent);color:var(--on-accent)}.skip:focus{top:12px}
+    .topbar{height:var(--header);padding:0 36px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:10;gap:16px}.brand{display:flex;align-items:center;gap:11px;font-size:28px;font-weight:800;letter-spacing:-1.5px}.brandmark{display:grid;place-items:center;background:var(--accent);color:var(--on-accent);width:35px;height:35px;border-radius:11px;transform:rotate(-7deg)}.brandmark svg{width:20px;fill:currentColor;stroke:none}.top-caption{color:var(--muted);font-size:13px;letter-spacing:.02em}.top-links{display:flex;align-items:center;gap:25px;font-size:13px}.pill{display:inline-flex;gap:8px;align-items:center;color:var(--accent);border:1px solid #3e4d29;border-radius:30px;padding:8px 13px;font-size:12px}.dot{width:6px;height:6px;background:var(--accent);border-radius:50%}
+    .layout{max-width:1440px;margin:auto;display:grid;grid-template-columns:230px minmax(0,1fr) 290px;gap:48px;padding:40px 36px}.sidebar{position:sticky;top:118px;align-self:start}.eyebrow{text-transform:uppercase;font-size:10px;letter-spacing:2px;font-weight:700;color:var(--muted)}.nav{margin:22px 0 35px;display:grid;gap:8px}.nav button{display:flex;align-items:center;gap:14px;text-align:left;padding:14px 16px;border-radius:12px;background:transparent;color:var(--muted);font-weight:600;font-size:14px;min-height:48px}.nav button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent)}.nav .count{margin-left:auto;font-size:11px;border-radius:6px;padding:1px 6px;background:#ffffff12}.side-note{padding:24px 16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}.side-note strong{display:block;color:var(--text);font-size:14px;margin-bottom:9px}.side-note p{margin-bottom:18px}.side-note span{display:block;font-size:11px;margin-top:12px}.sidebar footer{margin:40px 16px 0;color:var(--muted);font-size:11px;line-height:2}
+    main{min-width:0}.intro{margin-bottom:28px}.intro .eyebrow{color:var(--accent);display:flex;gap:8px;align-items:center;margin:4px 0 13px}h1{font-size:clamp(28px,3.4vw,43px);line-height:1.12;letter-spacing:-1.7px;font-weight:750;max-width:500px}h1 em{font-style:normal;color:var(--accent)}.intro p{font-size:13px;color:var(--muted);margin-top:14px}.feedbar{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);margin-bottom:24px;padding-bottom:13px;gap:16px}.feedbar h2{font-size:14px}.feedbar span{font-size:11px;color:var(--muted)}.feed{display:grid;gap:30px}.reel{scroll-margin-top:98px;min-width:0}.reel-head{display:flex;align-items:center;gap:10px;margin-bottom:12px}.avatar{height:36px;width:36px;display:grid;place-items:center;background:#2a2d23;color:var(--accent);border:1px solid #404933;border-radius:50%;font-size:12px;font-weight:700}.reel-head h2{font-size:13px}.reel-head p{font-size:11px;color:var(--muted)}.reel-head>a{margin-left:auto;font-size:11px;color:var(--muted);display:flex;align-items:center;gap:5px;min-height:44px}.reel-head>a svg{width:14px;height:14px}.player{position:relative;overflow:hidden;border-radius:var(--radius);border:1px solid var(--line);background:var(--panel);height:clamp(460px,74svh,740px)}.placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;background:radial-gradient(ellipse at 25% 20%,#324336 0,transparent 55%),radial-gradient(ellipse at 90% 90%,#342a42 0,transparent 55%),#191c1d;padding:30px;text-align:center}.play-icon{width:64px;height:64px;display:grid;place-items:center;border:1px solid #ffffff40;border-radius:50%;color:var(--accent);background:#ffffff08}.play-icon svg{width:26px;height:26px;fill:currentColor;stroke:none}.placeholder p{color:var(--muted);font-size:13px;max-width:260px}.load{background:var(--accent);color:var(--on-accent);padding:12px 20px;border-radius:30px;font-size:13px;font-weight:650;min-height:44px}.player iframe{position:relative;width:100%;height:100%;border:0;background:white;display:block}.player-note{font-size:11px;color:var(--muted);margin-top:9px;display:flex;align-items:center;justify-content:space-between;gap:10px}.player-note a{text-decoration:underline;text-underline-offset:3px}.actions{display:flex;gap:8px;margin-top:12px;align-items:center}.actions button{min-width:44px;min-height:44px;background:var(--panel);border:1px solid var(--line);border-radius:11px;display:flex;align-items:center;justify-content:center;gap:8px;padding:10px 14px;font-size:12px}.actions button[aria-pressed="true"]{color:var(--accent);border-color:#556539}.actions .permalink{margin-left:auto;font-size:11px;color:var(--muted);min-height:44px;display:flex;align-items:center}.end{color:var(--muted);text-align:center;font-size:12px;padding:32px 0 12px}.more{display:block;margin:0 auto;background:var(--panel);border:1px solid var(--line);border-radius:30px;min-height:44px;padding:10px 25px;font-size:13px}
+    .empty{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:var(--panel)}.empty-art{height:350px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 20% 10%,#68734555,transparent 60%),radial-gradient(ellipse at 90% 90%,#8a547050,transparent 65%),#222623;display:grid;place-items:center}.orbit{width:265px;height:265px;border:1px solid #c7f56640;border-radius:50%;display:grid;place-items:center;transform:rotate(-25deg);position:relative}.orbit:before,.orbit:after{content:"";position:absolute;border:1px solid #c7f56635;border-radius:50%;width:190px;height:265px}.orbit:after{width:110px}.empty-art .big-play{position:absolute;background:var(--accent);width:82px;height:82px;border-radius:25px;display:grid;place-items:center;transform:rotate(-8deg);box-shadow:0 0 65px #c7f56622;color:var(--on-accent)}.big-play svg{width:35px;height:35px;fill:currentColor;stroke:none}.art-label{position:absolute;bottom:20px;left:24px;font-size:10px;letter-spacing:2px;color:#c7f566}.empty-copy{padding:26px}.empty-copy h2{font-size:23px;letter-spacing:-.6px;margin-bottom:8px}.empty-copy p{color:var(--muted);font-size:13px;max-width:360px}.empty-copy button{margin-top:20px}.setup{font-size:12px;color:var(--muted);margin-top:18px;line-height:1.8}code{color:var(--accent);font:12px ui-monospace,monospace}
+    .directory{margin-top:25px;border-top:1px solid var(--line);padding-top:16px;color:var(--muted);font-size:12px}.directory summary{cursor:pointer;min-height:44px;padding:10px 0}.directory ol{padding-left:22px}.directory a{display:inline-block;min-height:44px;padding:10px 4px;text-decoration:underline;text-underline-offset:3px}
+    .right{position:sticky;top:118px;align-self:start}.discovery{border:1px solid var(--line);border-radius:16px;padding:23px;background:linear-gradient(145deg,#222720,var(--panel));margin-top:20px}.discovery .tiny{display:inline-block;background:#c7f56618;color:var(--accent);padding:5px 9px;border-radius:6px;font-size:10px}.discovery h2{font-size:25px;line-height:1.2;letter-spacing:-.8px;margin:20px 0 12px}.discovery p{font-size:12px;color:var(--muted)}.discovery button{margin-top:24px;width:100%;min-height:44px;border:1px solid #4c583f;border-radius:9px;background:transparent;display:flex;align-items:center;justify-content:center;gap:10px;font-size:12px}.guide{margin-top:30px}.guide h2{font-size:13px;margin-bottom:18px}.tip{display:flex;gap:12px;margin-bottom:18px;align-items:flex-start;color:var(--muted);font-size:12px}.tip .icon{border:1px solid var(--line);border-radius:9px;padding:9px;display:grid;place-items:center;color:var(--text)}.tip svg{width:16px;height:16px}.tip strong{display:block;color:var(--text);font-weight:500;font-size:12px;margin-bottom:2px}.independent{font-size:10px;color:var(--muted);border-top:1px solid var(--line);padding-top:20px;margin-top:28px}.mobile-nav{display:none}.scroll-controls{display:flex;justify-content:flex-end;gap:8px;margin-bottom:16px}.scroll-controls button{border:1px solid var(--line);border-radius:50%;width:44px;height:44px;background:var(--panel)}.toast{position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:var(--accent);color:var(--on-accent);font-size:13px;padding:12px 20px;border-radius:12px;z-index:25;max-width:90%;box-shadow:0 8px 32px #0005}.status-error{border:1px solid #a86868;color:#ffbcbc;border-radius:12px;padding:16px;font-size:13px;margin-bottom:20px}.status-error button{background:transparent;color:inherit;text-decoration:underline;min-height:44px;display:block}
+    @media(min-width:1600px){.layout{gap:72px;grid-template-columns:240px minmax(0,1fr) 300px}}
+    @media(max-width:1150px){.layout{grid-template-columns:190px minmax(0,580px);justify-content:center;gap:36px;padding:32px 24px}.right{display:none}.topbar{padding:0 24px}}
+    @media(max-width:700px){:root{--header:64px}.topbar{padding:0 18px}.brand{font-size:25px}.brandmark{width:30px;height:30px}.top-caption,.top-links>a{display:none}.pill{font-size:10px;padding:6px 10px}.layout{display:block;padding:24px 16px 110px;max-width:550px}.sidebar{display:none}.intro{margin-bottom:24px}h1{font-size:34px;max-width:340px}.intro p{font-size:12px}.feedbar{margin-bottom:18px}.player{height:clamp(460px,73svh,720px);border-radius:16px}.feed{gap:30px}.reel{scroll-margin-top:82px}.empty-art{height:300px}.mobile-nav{display:flex;position:fixed;bottom:0;left:0;right:0;z-index:15;background:#101114f5;border-top:1px solid var(--line);padding:8px 14px calc(8px + env(safe-area-inset-bottom));justify-content:space-around}.mobile-nav button{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:transparent;color:var(--muted);font-size:10px;min-width:64px;min-height:48px}.mobile-nav button[aria-pressed="true"]{color:var(--accent)}.toast{bottom:95px}.scroll-controls{margin-bottom:12px}.player-note{align-items:flex-start}.topbar{padding-top:env(safe-area-inset-top);height:calc(var(--header) + env(safe-area-inset-top))}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <svg aria-hidden="true" style="display:none" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 3v18l15-9z"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M6 3h12v18l-6-4-6 4z"/></symbol>
+    <symbol id="i-shuffle" viewBox="0 0 24 24"><path d="M3 6h3c5 0 7 12 12 12h3M18 15l3 3-3 3M3 18h3c2 0 3-2 4-4m4-4c1-2 2-4 4-4h3m-3-3 3 3-3 3"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-share" viewBox="0 0 24 24"><path d="M12 16V3m-5 5 5-5 5 5M5 13v7h14v-7"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 3h7v7m0-7L10 14M10 3H3v18h18v-7"/></symbol>
+  </svg>
+  <a class="skip" href="#main">Skip to reels</a>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Loop home"><span class="brandmark"><svg aria-hidden="true"><use href="#i-play"/></svg></span>loop<span style="color:var(--accent)">.</span></a>
+    <span class="top-caption">Small moments. Endless inspiration.</span>
+    <div class="top-links"><a href="#collection">Explore the collection</a><span class="pill"><span class="dot"></span>Your daily dose of discovery</span></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="Feed navigation">
+      <p class="eyebrow">Your space</p>
+      <nav class="nav" aria-label="Collections">
+        <button data-filter="all" aria-pressed="true"><svg aria-hidden="true"><use href="#i-grid"/></svg>Discover<span class="count" data-total>0</span></button>
+        <button data-filter="saved" aria-pressed="false"><svg aria-hidden="true"><use href="#i-save"/></svg>Saved reels<span class="count" data-saved>0</span></button>
+        <button data-random><svg aria-hidden="true"><use href="#i-shuffle"/></svg>Surprise me</button>
+      </nav>
+      <div class="side-note"><strong>Good things deserve a replay.</strong><p>A handpicked corner of the internet. Stay a little, find something you love.</p><span class="pill" style="display:inline-flex">Made for your next break</span></div>
+      <footer>Keep scrolling. Stay curious.<br>© <span data-year>2026</span> Loop</footer>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div class="intro"><div class="eyebrow"><span class="dot"></span>A fresh perspective</div><h1>A little scroll.<br>A lot to <em>discover.</em></h1><p>Short videos. Big inspiration. All in one place.</p></div>
+      <section id="collection" aria-labelledby="feed-title">
+        <div class="feedbar"><h2 id="feed-title">The reel collection</h2><span id="feed-count">Loading collection…</span></div>
+        <div id="error" class="status-error" role="alert" hidden></div>
+        <div class="scroll-controls" id="scroll-controls" hidden><button id="previous" aria-label="Previous reel"><svg aria-hidden="true"><use href="#i-up"/></svg></button><button id="next" aria-label="Next reel"><svg aria-hidden="true"><use href="#i-down"/></svg></button></div>
+        <div class="feed" id="feed"><!-- REELS:START --><!-- REELS:END --></div>
+        <div class="empty" id="empty" hidden>
+          <div class="empty-art" aria-hidden="true"><div class="orbit"></div><div class="big-play"><svg><use href="#i-play"/></svg></div><span class="art-label">PRESS PAUSE ON THE ORDINARY</span></div>
+          <div class="empty-copy"><h2 id="empty-title">Your next favorite starts here.</h2><p id="empty-text">The collection is waiting for its first reel. Check back soon for a little inspiration.</p><button class="load" id="empty-discover" hidden>Explore all reels</button></div>
+        </div>
+        <div id="sentinel" style="height:1px" aria-hidden="true"></div>
+        <button class="more" id="more" hidden>Load more reels</button>
+        <p class="end" id="end" hidden>You're all caught up. Good finds are worth a replay.</p>
+        <details class="directory" id="directory" hidden><summary>Browse all reel links</summary><ol id="directory-links"><!-- DIRECTORY:START --><!-- DIRECTORY:END --></ol></details>
+        <noscript><p class="setup">Enable JavaScript to load the players. The reel links below remain available.</p></noscript>
+      </section>
+    </main>
+    <aside class="right" aria-label="About Loop">
+      <p class="eyebrow">Less searching. More finding.</p>
+      <div class="discovery"><span class="tiny">THE SCROLL, REIMAGINED</span><h2>A good find<br>can make your day.</h2><p>Something creative. Something unexpected. Something worth sharing.</p><button data-random><svg aria-hidden="true"><use href="#i-shuffle"/></svg>Find me something good</button></div>
+      <div class="guide"><h2>Make yourself at home</h2><div class="tip"><span class="icon"><svg aria-hidden="true"><use href="#i-down"/></svg></span><p><strong>Scroll to discover</strong>More reels load as you explore.</p></div><div class="tip"><span class="icon"><svg aria-hidden="true"><use href="#i-save"/></svg></span><p><strong>Keep your favorites</strong>Saved right here on this device.</p></div><div class="tip"><span class="icon"><svg aria-hidden="true"><use href="#i-share"/></svg></span><p><strong>Pass on a good find</strong>Share a reel with your people.</p></div></div>
+      <p class="independent">An independent collection. Videos and playback are provided by Instagram; availability can vary.</p>
+    </aside>
+  </div>
+  <nav class="mobile-nav" aria-label="Mobile collections"><button data-filter="all" aria-pressed="true"><svg aria-hidden="true"><use href="#i-grid"/></svg>Discover</button><button data-filter="saved" aria-pressed="false"><svg aria-hidden="true"><use href="#i-save"/></svg>Saved</button><button data-random><svg aria-hidden="true"><use href="#i-shuffle"/></svg>Surprise me</button></nav>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <template id="reel-template">
+    <article class="reel" id="reel-__ID__" data-url="__URL__" data-number="__NUMBER__" aria-labelledby="title-__ID__">
+      <header class="reel-head"><span class="avatar" aria-hidden="true">__NUMBER__</span><div><h2 id="title-__ID__">Instagram reel __NUMBER__</h2><p>From the Loop collection</p></div><a href="__URL__" target="_blank" rel="noopener noreferrer">Instagram<svg aria-hidden="true"><use href="#i-external"/></svg></a></header>
+      <div class="player"><div class="placeholder"><span class="play-icon" aria-hidden="true"><svg><use href="#i-play"/></svg></span><p>One little moment.<br>Something new to discover.</p><button class="load" data-load>Load reel</button><p>Playback is provided by Instagram.</p></div></div>
+      <p class="player-note"><span>Can't play this reel?</span><a href="__URL__" target="_blank" rel="noopener noreferrer">Watch on Instagram ↗</a></p>
+      <div class="actions"><button data-save aria-pressed="false" aria-label="Save reel __NUMBER__"><svg aria-hidden="true"><use href="#i-save"/></svg><span>Save</span></button><button data-share aria-label="Share reel __NUMBER__"><svg aria-hidden="true"><use href="#i-share"/></svg><span>Share</span></button><a class="permalink" href="#reel-__ID__" aria-label="Link to reel __NUMBER__">#__NUMBER__</a></div>
+    </article>
+  </template>
+  <script>
+    'use strict';
+    const $ = (selector, root = document) => root.querySelector(selector);
+    const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+    const BATCH = 6, feed = $('#feed'), saved = new Set();
+    let videos = [], filtered = [], rendered = 0, filter = 'all', active = null, toastTimer;
+    try { const stored = JSON.parse(localStorage.getItem('loop-saved') || '[]'); if (Array.isArray(stored)) stored.filter(v => typeof v === 'string').forEach(v => saved.add(v)); } catch {}
+    function normalize(value) {
+      if (typeof value !== 'string') return null;
+      try { const u = new URL(value.trim()); const match = u.pathname.match(/^\/(reel|reels|p)\/([A-Za-z0-9_-]+)\/?$/);
+        if (u.protocol !== 'https:' || !['instagram.com','www.instagram.com'].includes(u.hostname) || u.port || u.username || u.password || !match) return null;
+        return {url: `https://www.instagram.com/${match[1] === 'reels' ? 'reel' : match[1]}/${match[2]}/`, id: match[2]};
+      } catch { return null; }
+    }
+    function notify(message) { clearTimeout(toastTimer); $('#toast').textContent = message; $('#toast').hidden = false; toastTimer = setTimeout(() => $('#toast').hidden = true, 3500); }
+    function syncSaved() {
+      $$('[data-saved]').forEach(el => el.textContent = videos.filter(v => saved.has(v.url)).length);
+      $$('.reel', feed).forEach(article => { const yes = saved.has(article.dataset.url), button = $('[data-save]', article); button.setAttribute('aria-pressed', String(yes)); button.setAttribute('aria-label', `${yes ? 'Unsave' : 'Save'} reel ${article.dataset.number}`); $('span', button).textContent = yes ? 'Saved' : 'Save'; });
+    }
+    function mount(article) {
+      if (article.querySelector('iframe')) return;
+      const mounted = $$('.reel', feed).filter(a => a.querySelector('iframe'));
+      while (mounted.length >= 2) {
+        const victim = mounted.find(a => a !== active) || mounted[0];
+        unmount(victim); mounted.splice(mounted.indexOf(victim), 1);
+      }
+      // URLs have been normalized before reaching this point. At most two players remain mounted.
+      const iframe = document.createElement('iframe');
+      iframe.title = `Instagram reel ${article.dataset.number}`;
+      iframe.src = article.dataset.url + 'embed/';
+      iframe.loading = 'lazy'; iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+      iframe.setAttribute('allow', 'encrypted-media; fullscreen; picture-in-picture');
+      iframe.setAttribute('allowfullscreen', '');
+      $('.player', article).append(iframe);
+      $('.placeholder', article).hidden = true;
+    }
+    function unmount(article) { $('iframe', article)?.remove(); $('.placeholder', article).hidden = false; }
+    const nearObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+      entries.forEach(entry => { if (entry.isIntersecting) mount(entry.target); });
+    }, {rootMargin:'150px 0px',threshold:0}) : null;
+    const visibleObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+      const visible = entries.filter(e => e.isIntersecting).sort((a,b) => b.intersectionRatio-a.intersectionRatio);
+      if (!visible.length) return;
+      active = visible[0].target;
+      const articles = $$('.reel', feed), index = articles.indexOf(active);
+      articles.forEach((article, i) => { if (Math.abs(i-index) > 1) unmount(article); });
+      mount(active);
+      $('#previous').disabled = index === 0; $('#next').disabled = index === filtered.length - 1;
+    }, {threshold:[0.2,0.5,0.75]}) : null;
+    function addBatch() {
+      const chunk = filtered.slice(rendered, rendered + BATCH), fragment = document.createDocumentFragment();
+      chunk.forEach(video => {
+        const holder = document.createElement('template');
+        holder.innerHTML = $('#reel-template').innerHTML.replaceAll('__ID__', video.id).replaceAll('__URL__', video.url).replaceAll('__NUMBER__', String(video.number));
+        const article = holder.content.firstElementChild;
+        fragment.append(article);
+      });
+      feed.append(fragment); rendered += chunk.length;
+      $$('.reel', feed).slice(rendered-chunk.length).forEach(article => { nearObserver?.observe(article); visibleObserver?.observe(article); });
+      $('#more').hidden = rendered >= filtered.length;
+      $('#end').hidden = !filtered.length || rendered < filtered.length;
+      syncSaved();
+    }
+    function render(keepScroll = false) {
+      nearObserver?.disconnect(); visibleObserver?.disconnect(); active = null;
+      feed.replaceChildren(); rendered = 0;
+      filtered = videos.filter(v => filter === 'all' || saved.has(v.url));
+      $('#feed-title').textContent = filter === 'saved' ? 'Your saved reels' : 'The reel collection';
+      $('#feed-count').textContent = `${filtered.length} reel${filtered.length === 1 ? '' : 's'}`;
+      $$('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === filter)));
+      $('#empty').hidden = filtered.length > 0;
+      $('#empty-title').textContent = filter === 'saved' ? 'Keep the good ones close.' : 'Your next favorite starts here.';
+      $('#empty-text').textContent = filter === 'saved' ? 'Tap Save on a reel you love. Your favorites will be waiting here on this device.' : 'The collection is waiting for its first reel. Check back soon for a little inspiration.';
+      $('#empty-discover').hidden = filter !== 'saved';
+      $('#scroll-controls').hidden = !filtered.length;
+      $('#previous').disabled = true; $('#next').disabled = filtered.length < 2;
+      $$('[data-random]').forEach(button => button.disabled = videos.length === 0);
+      addBatch(); if (!keepScroll) $('#collection').scrollIntoView({behavior:'instant',block:'start'});
+    }
+    function reveal(id) {
+      const index = filtered.findIndex(v => v.id === id);
+      if (index < 0) return false;
+      while (rendered <= index) addBatch();
+      const article = document.getElementById('reel-' + id);
+      article.scrollIntoView({block:'start'}); mount(article); active = article;
+      return true;
+    }
+    function hashNavigate() {
+      const match = location.hash.match(/^#reel-([A-Za-z0-9_-]+)$/);
+      if (!match) return;
+      if (filter !== 'all') { filter = 'all'; render(true); }
+      if (!reveal(match[1])) notify('This reel is no longer in the collection.');
+    }
+    async function load() {
+      $('#error').hidden = true;
+      try {
+        const response = await fetch('./videos.json', {cache:'no-cache'});
+        if (!response.ok) throw new Error('fetch');
+        const data = await response.json();
+        if (!Array.isArray(data)) throw new Error('format');
+        const seen = new Set(); let invalid = 0;
+        videos = data.flatMap(value => { const video = normalize(value); if (!video) { invalid++; return []; } if (seen.has(video.id)) return []; seen.add(video.id); return [{...video,number:seen.size}]; });
+        $$('[data-total]').forEach(el => el.textContent = videos.length);
+        const directory = document.createDocumentFragment();
+        videos.forEach(video => { const li = document.createElement('li'), a = document.createElement('a'); a.href = video.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = `Instagram reel ${video.number}`; li.append(a); directory.append(li); });
+        $('#directory-links').replaceChildren(directory); $('#directory').hidden = videos.length === 0;
+        render(true); hashNavigate();
+        if (invalid) notify(`${invalid} invalid link${invalid === 1 ? '' : 's'} skipped.`);
+      } catch {
+        // The deploy build embeds all links: preserve that collection during a network outage.
+        if (!videos.length) videos = $$('.reel', feed).flatMap((article, i) => { const video = normalize(article.dataset.url); return video ? [{...video,number:i+1}] : []; });
+        if (videos.length) { render(true); hashNavigate(); }
+        else { $('#feed-count').textContent = 'Collection unavailable'; $('#empty').hidden = true; }
+        $('#error').textContent = 'The collection could not be refreshed. Please check your connection and try again.';
+        const retry = document.createElement('button'); retry.textContent = 'Try again'; retry.addEventListener('click',load); $('#error').append(retry); $('#error').hidden = false;
+      }
+    }
+    feed.addEventListener('click', async event => {
+      const button = event.target.closest('button'), article = event.target.closest('.reel');
+      if (!button || !article) return;
+      if (button.hasAttribute('data-load')) { mount(article); return; }
+      if (button.hasAttribute('data-save')) {
+        const url = article.dataset.url, wasSaved = saved.has(url);
+        if (wasSaved) saved.delete(url); else saved.add(url);
+        try { localStorage.setItem('loop-saved',JSON.stringify([...saved])); notify(wasSaved ? 'Removed from saved reels.' : 'Saved for your next break.'); }
+        catch { notify('Saved for this visit. Browser storage is unavailable.'); }
+        syncSaved();
+        if (filter === 'saved') { const nextIndex = $$('.reel', feed).indexOf(article); render(true); const target = $$('.reel', feed)[Math.min(nextIndex, rendered-1)]; (target ? $('[data-save]',target) : $('#empty-discover')).focus({preventScroll:true}); }
+      }
+      if (button.hasAttribute('data-share')) {
+        const url = new URL(location.href); url.hash = article.id;
+        try { if (navigator.share) await navigator.share({title:'A good find on Loop',url:url.href}); else { await navigator.clipboard.writeText(url.href); notify('Reel link copied.'); } }
+        catch (error) { if (error.name !== 'AbortError') { location.hash = article.id; notify('Copy this page address to share the reel.'); } }
+      }
+    });
+    $$('[data-filter]').forEach(button => button.addEventListener('click',() => { filter = button.dataset.filter; if (location.hash.startsWith('#reel-')) history.replaceState(null,'',location.pathname+location.search); render(); }));
+    $('#empty-discover').addEventListener('click',() => { filter = 'all'; render(); });
+    $$('[data-random]').forEach(button => button.addEventListener('click',() => { if (!videos.length) return; filter = 'all'; render(true); const video = videos[Math.floor(Math.random()*videos.length)]; location.hash = 'reel-'+video.id; reveal(video.id); }));
+    $('#more').addEventListener('click',() => { const previous = rendered; addBatch(); $('.reel:nth-child('+(previous+1)+')',feed)?.querySelector('[data-load]')?.focus({preventScroll:true}); });
+    function step(direction) { const articles = $$('.reel',feed); const index = Math.max(0,articles.indexOf(active)); const next = index+direction; if (next >= 0 && next < filtered.length) reveal(filtered[next].id); }
+    $('#previous').addEventListener('click',() => step(-1)); $('#next').addEventListener('click',() => step(1));
+    if ('IntersectionObserver' in window) new IntersectionObserver(entries => { if (entries.some(e => e.isIntersecting) && rendered < filtered.length) addBatch(); },{rootMargin:'600px 0px'}).observe($('#sentinel'));
+    window.addEventListener('hashchange',hashNavigate);
+    window.addEventListener('storage',event => { if (event.key !== 'loop-saved') return; try { const next = JSON.parse(event.newValue || '[]'); if (!Array.isArray(next)) return; saved.clear(); next.filter(v => typeof v === 'string').forEach(v => saved.add(v)); if (filter === 'saved') render(true); else syncSaved(); } catch {} });
+    document.addEventListener('visibilitychange',() => { if (document.hidden) $$('.reel',feed).forEach(unmount); else if (active) mount(active); });
+    $$('[data-year]').forEach(el => el.textContent = new Date().getFullYear());
+    load();
+  </script>
+</body>
+</html>
